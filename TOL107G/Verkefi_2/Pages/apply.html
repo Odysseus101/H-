@@ -1,17 +1,50 @@
 <!DOCTYPE html>
-<html lang="is">
-    <center>
+<html>
+    <fieldset>
     <head>
-        <meta charset="utf-8">
-        <h1 style="background-color:orange;">
-            Umsóknir
-        </h1>
+        <h1>Umsóknir</h1>
     </head>
     <body>
-        <h2 style="background-color:orange;">Samskiptagátt</h2>
-        <p>Allar umsóknir um nám fara í gegnum samskiptagátt Háskóla Íslands og munu öll þín samskipti varðandi umsóknarferlið fara þar fram.</p>
-        <p>Innritaðir og brautskráðir nemendur sem eru með Ugluaðgang þurfa einnig að stofna sérstakan aðgang í samskiptagáttina þegar sótt er um nýtt nám.</p>
-        <h1 style="background-color:orange;"><a href="https://ugla.hi.is/namsumsoknir/">Sækja um</a></h1>
+        <form action="/action_page.php">
+            <fieldset>
+                <h1>Persónuupplýsungar</h1>
+              <label for="Nafn">Nafn:</label>
+              <input type="text" id="Nafn" name="Nafn"><br><br>
+
+              <label for="kenitala">Kenitala:</label>
+              <input type="text" id="kenitala" name="kenitala"><br><br>
+
+              <label for="Tolvupostur">Tölvupóstur:</label>
+              <input type="email" id="Tolvupostur" name="Tolvupostur"><br><br>
+
+              <input type="submit" value="Submit">
+            
+            </fieldset>
+            <fieldset>
+                <h1>Framhaldskóli</h1>
+                <label for="Skoli">Skoli:</label>
+                <input type="text" id="Skoli" name="Skoli"><br><br>
+  
+                <label for="Prófgráða">Prófgráða:</label>
+                <input type="text" id="Skoli" name="Skoli"><br><br>
+
+                <label for="nam_lokid">Er námi lokið:</label><br>
+                <input type="submit" value="Já"><tab>   </tab></tabZ><input type="submit" value="Nei"><br><br>
+  
+                <label for="skola_lok">Hvenær lauk studentprófið:</label>
+                <input type="date" id="skola_lok" name="skola_lok"><br><br>
+            </fieldset>
+            <fieldset>
+                <h1>Kjörsvið</h1>
+                <label for="Kjorsvid">Kjörsvið:</label>
+                <input type="text" id="Kjorsvid" name="Kjorsvid"><br><br>
+            </fieldset>
+            <fieldset>
+                <h1>Fylgigögn</h1>
+                <label for="fname">Auka hlekkur :</label>
+                <input type="link" id="Nafn" name="Nafn"><br><br>
+            </fieldset>
+        </form>
     </body>
-    </center>
+    </fieldset>
 </html>
