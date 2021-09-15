@@ -1,0 +1,15 @@
+*{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    border: 1000px, black;
+}
+fieldset{
+    margin: 1px;
+    margin-left: 40px;
+    float: left;
+    border: 10px ,black;
+}
+head{
+    margin: 100px;
+}

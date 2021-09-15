@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" fieldset="print" href="../styles.css">
+    <head class="head">
+        <div>
+            <h1>Tölvunarfræði</h1>
+            <h2>Sækja um nám</h2>
+            <nav>
+              <ul>
+                <li><a href="../index.html">Forsíða</a></li>
+                <li><strong>Sækja um nám</strong></li>
+                <li><a href="courses.html">Áfangar</a></li>
+                <li><a href="faq.html">Fleiri spurningar</a></li>
+              </ul>
+            </nav>
+        </div>      
+    </head>
+    <body>
+        <form>
+            <div class="fieldset">
+                <fieldset>
+                    <legend>Persónuupplýsungar</legend>
+                <label for="Nafn">Nafn:</label>
+                <input type="text" id="Nafn" name="Nafn" ><br><br>
+
+                <label for="kenitala">Kenitala:</label>
+                <input type="text" id="kenitala" name="kenitala"><br><br>
+
+                <label for="Tolvupostur">Tölvupóstur:</label>
+                <input type="email" id="Tolvupostur" name="Tolvupostur"><br><br>
+
+                <input type="submit" value="Submit">
+                
+                </fieldset>
+                <fieldset>
+                    <legend>Framhaldskóli</legend>
+                    <label for="Skoli">Skoli:</label>
+                    <input list="skolar"type="text" id="Skoli" name="Skoli"><br><br>
+                    <datalist id="skolar">
+                        <option value="Borgarholtsskóli">Borgarholtsskóli</option>
+                        <option value="Fisktækniskóli Íslands">Fisktækniskóli Íslands</option>
+                        <option value="Fjölbrautaskóli Norðurlands vestra">Fjölbrautaskóli Norðurlands vestra</option>
+                        <option value="Fjölbrautaskóli Snæfellinga">Fjölbrautaskóli Snæfellinga</option>
+                        <option value="Fjölbrautaskóli Suðurlands">Fjölbrautaskóli Suðurlands</option>
+                        <option value="Fjölbrautaskóli Suðurnesja">Fjölbrautaskóli Suðurnesja</option>
+                        <option value="Fjölbrautaskóli Vesturlands">Fjölbrautaskóli Vesturlands</option>
+                        <option value="Fjölbrautaskólinn í Breiðholti">Fjölbrautaskólinn í Breiðholti</option>
+                        <option value="Fjölbrautaskólinn í Garðabæ">Fjölbrautaskólinn í Garðabæ</option>
+                        <option value="Fjölbrautaskólinn við Ármúla">Fjölbrautaskólinn við Ármúla</option>
+                        <option value="Flensborgarskólinn í Hafnarfirði">Flensborgarskólinn í Hafnarfirði</option>
+                        <option value="Framhaldsskólinn á Húsavík">Framhaldsskólinn á Húsavík</option>
+                        <option value="Framhaldsskólinn á Laugum">Framhaldsskólinn á Laugum</option>
+                        <option value="Framhaldsskólinn í Austur - Skaftafellssýslu">Framhaldsskólinn í Austur - Skaftafellssýslu</option>
+                        <option value="Framhaldsskólinn í Mosfellsbæ">Framhaldsskólinn í Mosfellsbæ</option>
+                        <option value="Framhaldsskólinn í Vestmannaeyjum">Framhaldsskólinn í Vestmannaeyjum</option>
+                        <option value="Hallormsstaðaskóli">Hallormsstaðaskóli</option>
+                        <option value="Hússtjórnarskóli Reykjavíkur">Hússtjórnarskóli Reykjavíkur</option>
+                        <option value="Kvennaskólinn í Reykjavík">Kvennaskólinn í Reykjavík</option>
+                        <option value="Landbúnaðarháskóli Íslands">Landbúnaðarháskóli Íslands</option>
+                        <option value="Menntaskóli Borgarfjarðar">Menntaskóli Borgarfjarðar</option>
+                        <option value="Menntaskóli í tónlist">Menntaskóli í tónlist</option>
+                        <option value="Menntaskólinn á Akureyri">Menntaskólinn á Akureyri</option>
+                        <option value="Menntaskólinn á Ásbrú">Menntaskólinn á Ásbrú</option>
+                        <option value="Menntaskólinn á Egilsstöðum">Menntaskólinn á Egilsstöðum</option>
+                        <option value="Menntaskólinn á Ísafirði">Menntaskólinn á Ísafirði</option>
+                        <option value="Menntaskólinn á Tröllaskaga">Menntaskólinn á Tröllaskaga</option>
+                        <option value="Menntaskólinn að Laugarvatni">Menntaskólinn að Laugarvatni</option>
+                        <option value="Menntaskólinn í Kópavogi">Menntaskólinn í Kópavogi</option>
+                        <option value="Menntaskólinn í Reykjavík">Menntaskólinn í Reykjavík</option>
+                        <option value="Menntaskólinn við Hamrahlíð">Menntaskólinn við Hamrahlíð</option>
+                        <option value="Menntaskólinn við Sund">Menntaskólinn við Sund</option>
+                        <option value="Myndlistaskólinn á Akureyri">Myndlistaskólinn á Akureyri</option>
+                        <option value="Myndlistaskólinn í Reykjavík">Myndlistaskólinn í Reykjavík</option>
+                        <option value="Tækniskólinn">Tækniskólinn</option>
+                        <option value="Verkmenntaskóli Austurlands">Verkmenntaskóli Austurlands</option>
+                        <option value="Verkmenntaskólinn á Akureyri">Verkmenntaskólinn á Akureyri</option>
+                        <option value="Verzlunarskóli Íslands">Verzlunarskóli Íslands</option>
+                    </datalist>
+
+                    <label for="Prófgráða">Prófgráða:</label>
+                    <input type="text" id="Skoli" name="Skoli"><br><br>
+
+                    <label for="nam_lokid">Er námi lokið:</label><br>
+                    <input type="submit" value="Já"><tab>   </tab></tabZ><input type="submit" value="Nei"><br><br>
+    
+                    <label for="skola_lok">Hvenær lauk studentprófið:</label>
+                    <input type="date" id="skola_lok" name="skola_lok"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Kjörsvið</legend>
+                    <label for="Kjorsvid">Kjörsvið:</label>
+                    <input type="text" id="Kjorsvid" name="Kjorsvid"><br><br>
+                    <datalist id="Kjorsvid">
+                        <option value="tölvunarfræði">Almenn tölvunarfræði (Veitir breiðan almennan grunn í tölvunarfræði)</option>
+                        <option value="Gagnavísindi">Gagnavísindi (Nemendur fá þjálfun í vinnslu, greiningu og framsetningu á gögnum, auk líkangerðar og smíði reiknirita.)</option>
+                        <option value="Reiknifræði">Reiknifræði (Gerir nemendur hæfa til þess að takast á við reiknifræðilega líkanagerð og fræðilegri þætti tölvunarfræði)</option>
+                    </datalist>
+                </fieldset>
+                <fieldset>
+                    <legend>Fylgigögn</legend>
+
+                    <label for="fname">Fylgi Hlekkur 1 :</label>
+                    <input type="file" id="Nafn" name="Nafn"><br><br>
+                    
+                    <label for="fname">Fylgi Hlekkur 2 :</label>
+                    <input type="file" id="Nafn" name="Nafn"><br><br>
+
+                    <label for="fname">Fylgi Hlekkur 3 :</label>
+                    <input type="file" id="Nafn" name="Nafn"><br><br>
+
+                    <label for="fname">Fylgi Hlekkur 4 :</label>
+                    <input type="file" id="Nafn" name="Nafn"><br><br>
+                </fieldset>
+            </div>
+        </form>
+    </body>
+</html>

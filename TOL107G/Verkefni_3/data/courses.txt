@@ -1,0 +1,74 @@
+Númer	Heiti	Einingar
+
+Fyrsta ár
+STÆ105G	Hagnýt stærðfræðigreining	8e
+TÖL101G	Tölvunarfræði 1	6e
+TÖL104G	Stærðfræðimynstur	8e
+TÖL107G	Vefforritun 1	8e
+HBV201G	Viðmótsforritun 	8e
+REI201G	Stærðfræði og reiknifræði	8e
+TÖL203G	Tölvunarfræði 2	6e
+TÖV201G	Greining og hönnun stafrænna rása	6e
+TÖV202G	Greining og hönnun stafrænna rása - verklegt	2e
+
+Annað ár
+TÖL303G	Gagnasafnsfræði	6e
+TÖL304G	Forritunarmál	6e
+TÖL309G	Tölvutækni og forritun	6e
+HBV401G	Þróun hugbúnaðar	6e
+STÆ209G	Tölfræði og gagnavinnsla	8e
+TÖL401G	Stýrikerfi	6e
+TÖL403G	Greining reiknirita	6e
+
+Þriðja ár
+HBV501G	Hugbúnaðarverkefni 1	6e
+TÖL301G	Formleg mál og reiknanleiki 	6e
+HBV601G	Hugbúnaðarverkefni 2	6e
+
+Óháð námsári
+HBV004G	Starfsþjálfun	6e
+HBV103M	Viðhald hugbúnaðar	6e
+HBV261L	Lokaverkefni	6/8e
+HBV502G	Hakkaþon verkefni	4e
+IÐN102M	Reiknigreind	6e
+IÐN103G	Tæknistjórnun	6e
+IÐN301G	Greining ferla og kerfa	6e
+IÐN502G	Hagverkfræði	6e
+IÐN503G	Verkefnastjórnun	6e
+IÐN510M	Vörustjórnun og umhverfismál	6e
+REI502M	Inngangur að gagnanámi	6e
+REI503M	Greining á frammistöðu tölvukerfa	6e
+REI504M	Skýjaforritun og stórgögn	6e
+REI505M	Gervigreind	6e
+STÆ520M	Netafræði	6e
+STÆ532M	Rafmyntir	6e
+TÖL025M	Inngangur að máltækni	6e
+TÖL103M	Forritun snjalltækja	6e
+TÖL108G	Tölvur, stýrikerfi og tölvufærni	4e
+TÖL305G	Tölvunet og öryggi	6e
+TÖL308G	Tölvuleikjaforritun	6e
+TÖL501G	Frá hugmynd að veruleika	6e
+TÖL502M	Samskipti manns og tölvu	6e
+TÖL503M	Dreifð kerfi	6e
+TÖL504M	Reiknirit í lífupplýsingafræði	6e
+TÖV501M	Hönnun tölva	6e
+EÐL405G	Þættir úr sögu og heimspeki vísindanna	6e
+HBV004G	Starfsþjálfun	6e
+HBV204M	Gæðastjórnun í hugbúnaðargerð	6e
+HBV205M	Prófun hugbúnaðar	6e
+HBV261L	Lokaverkefni	6/8e
+HBV403G	Vefforritun 2	6e
+HBV602G	Alþjóðleg markaðssetning tæknilausna	6e
+HBV602M	Öryggi tölvukerfa	6e
+HBV603G	Starfsnám í tölvunarfræði og hugbúnaðarverkfræði - grunnnám	24e
+IÐN201G	Aðgerðir í skipuheildum	6e
+IÐN401G	Aðgerðagreining	6e
+LVF601M	Inngangur að kerfislíffræði	6e
+REI204M	Forritun ofurtölva	6e
+REI603M	Lífsferill gervigreindarlausna	6e
+TÖL202M	Þýðendur	6e
+TÖL203M	Tölvugrafík	6e
+TÖL205G	Tölvur, stýrikerfi og tölvufærni	4e
+TÖL212M	Rökstudd forritun	6e
+TÖL602G	Málstofa í tölvunarfræði fyrir grunnnema	2e
+TÖL607G	Keppnisforritun	6e

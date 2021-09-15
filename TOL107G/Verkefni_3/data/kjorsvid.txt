@@ -1,0 +1,3 @@
+Almenn tölvunarfræði (Veitir breiðan almennan grunn í tölvunarfræði)
+Gagnavísindi (Nemendur fá þjálfun í vinnslu, greiningu og framsetningu á gögnum, auk líkangerðar og smíði reiknirita.)
+Reiknifræði (Gerir nemendur hæfa til þess að takast á við reiknifræðilega líkanagerð og fræðilegri þætti tölvunarfræði)
