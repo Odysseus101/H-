@@ -4,14 +4,14 @@
     <head class="head">
         <div>
             <h1>Tölvunarfræði</h1>
-            <h2>Sækja um nám</h2>
+            <h2>Sækja um</h2>
             <nav>
-              <ul>
-                <li><a href="../index.html">Forsíða</a></li>
-                <li><strong>Sækja um nám</strong></li>
-                <li><a href="courses.html">Áfangar</a></li>
-                <li><a href="faq.html">Fleiri spurningar</a></li>
-              </ul>
+                <p>
+                    <a href="../index.html">| Forsíða |</a>
+                    <strong>| Sækja um |</strong>
+                    <a href="courses.html">| Áfangar |</a>
+                    <a href="faq.html">| Fleiri spurningar |</a>
+                </p>
             </nav>
         </div>      
     </head>
@@ -35,7 +35,7 @@
                 <fieldset>
                     <legend>Framhaldskóli</legend>
                     <label for="Skoli">Skoli:</label>
-                    <input list="skolar"type="text" id="Skoli" name="Skoli"><br><br>
+                    <input list="skolar"type="id" id="Skoli" name="Skoli"><br><br>
                     <datalist id="skolar">
                         <option value="Borgarholtsskóli">Borgarholtsskóli</option>
                         <option value="Fisktækniskóli Íslands">Fisktækniskóli Íslands</option>
@@ -112,6 +112,7 @@
                     <input type="file" id="Nafn" name="Nafn"><br><br>
                 </fieldset>
             </div>
+            <input class="go_left" type="submit" value="Send umsókn">
         </form>
     </body>
 </html>
