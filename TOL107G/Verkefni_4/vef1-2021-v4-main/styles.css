@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Playfair+Display&display=swap');
+/* Setjum inn „reset“ sem fjarlægir margin og padding af öllu */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: font-family 'Inter', sans-serif;;
+}
+
+/* Reiknum stærð á öllum boxum sem border-box */
+html {
+  box-sizing: border-box;
+}
+html a {
+  font-weight: 700;
+}
+/* og látum erfast á allt */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.o{
+  font-weight: 600;
+}
+:root {
+  /* Grunn bilið okkar er 1rem == 16px */
+  --spacing: 1rem;
+  /* Hámarksbreidd á efni */
+  --max-width: 1400px;
+
+  --color-text: #222;
+  --color-link: #069;
+  --color-border: #ccc;
+
+  /* Letur stillingar */
+  --font-size: 16px;
+  --font-family-base: 'Inter', Helvetica, Arial, sans-serif;
+  --font-family-heading: 'Playfair Display', Georgia, serif;
+}
+
+body {
+  font-size: var(--font-size);
+  line-height: 1.5;
+  font-family: var(--font-family-base);
+  margin-left: 3em;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    font-size: 4rem;
+}
+.content{
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  flex: 25%;
+}
+.content img{
+  flex: 1;
+  width: 20em;
+  height: 11em;
+  object-fit: cover;
+}
+.content section{
+  width: 25%;
+}
+.content h3{
+  flex: 1;
+  font-size: 1.35rem;
+  width: 18em;
+  margin-bottom: 1em;
+}
+.content p{
+  flex: 1;
+  font-size: 16px;
+  width: 18em;
+  margin-bottom: 5em;
+}
+.content ol{
+  display: flex;
+  flex: 25%;
+  height: 40em;
+}
+.content li{
+  font-size: 1.3rem;
+  border-bottom: 1px solid #ccc;
+  margin-left: 30px;
+  flex: auto;
+}
+.latest{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 88em;
+}
+.latest ol{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.ad {
+  display: flex;
+  width: 88em;
+  height: 15em;
+  background:     linear-gradient(
+    rgba(248, 248, 248, 0.61),
+    rgba(231, 231, 231, 0.575)
+  ), url(images/spjall.jpg);
+  background-size: cover;
+}
+.ad p{
+  margin-left: 30px;
+  margin-top: 160px;
+  font-weight: 700;
+  display: flex;
+  margin-right: 5em;
+  flex: 60%;
+  height: 30px;
+  width: 100%;
+  font-size: 3rem;
+}
+.ad a{
+  font-weight: 600;
+  margin-top: 160px;
+  display: flex;
+  flex: 30%;
+  font-size: 3rem;
+}
+.categories{
+  display: flex;
+  flex-direction: row;
+  width: 88em;
+}
+.categories section{
+  flex: 25%;
+}
+.categories h2{
+  width: 25%;
+  margin-left: 0.35em;
+  border-bottom: 5px ridge rgb(214, 214, 214);
+}
+.categories ul{
+  margin-left: 0.35em;
+  flex: 1;
+  border: 2px solid rgb(216, 216, 216);
+  width: 96%;
+  height: 100%;
+}
+.categories img{
+  flex: 2;
+  width: 19em;
+  height: 13em;
+  object-fit: cover;
+}
+.categories li{
+  width: 80%;
+  margin: 1em;
+  border-bottom: 2px solid rgb(204, 204, 204);
+  flex: 1;
+  list-style-type: none;
+}

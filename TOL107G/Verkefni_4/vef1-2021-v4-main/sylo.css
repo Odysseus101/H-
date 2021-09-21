@@ -1,0 +1,111 @@
+/* Setjum inn „reset“ sem fjarlægir margin og padding af öllu */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reiknum stærð á öllum boxum sem border-box */
+html {
+  box-sizing: border-box;
+}
+/* og látum erfast á allt */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+:root {
+  /* Grunn bilið okkar er 1rem == 16px */
+  --spacing: 1rem;
+  /* Hámarksbreidd á efni */
+  --max-width: 1400px;
+
+  --color-text: #222;
+  --color-link: #069;
+  --color-border: #ccc;
+
+  /* Letur stillingar */
+  --font-size: 16px;
+  --font-family-base: 'Inter', Helvetica, Arial, sans-serif;
+  --font-family-heading: 'Playfair Display', Georgia, serif;
+}
+
+body {
+  margin-left: 3em;
+  font-size: var(--font-size);
+  line-height: 1.5;
+  font-family: var(--font-family-base);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-family-heading);
+}
+.row{
+	display: flex;
+	flex-flow: row-reverse;
+}
+.box {
+	display: flex;
+	flex-grow: 2;
+  margin-left: 1em;
+	justify-content: center;
+	align-items: center;
+  object-fit: cover;
+	font-size: 1.2em;
+}
+}
+.box-marginfree {
+	display: flex;
+	flex-grow: 2;
+  height: 10em;
+  width: 16em;
+	justify-content: center;
+	align-items: center;
+  object-fit: cover;
+	font-size: 1.2em;
+}
+.hlekkar-box{
+  display: flex;
+	flex-grow: 1;
+  height: 23em;
+  width: 17em;
+	justify-content: center;
+	align-items: center;
+  object-fit: cover;
+	font-size: 1.2em;
+}
+.text-box{
+  display: flex;
+	flex-grow: 1;
+  height: 5em;
+  width: 13em;
+	justify-content: center;
+	align-items: center;
+  object-fit: cover;
+	font-size: 1.2em;
+}
+.ad{
+  display: flex;
+	flex-grow: 1;
+  height: 15%;
+  width: 100%;
+	justify-content: center;
+	align-items: center;
+  object-fit: cover;
+  aspect-ratio: 1/0.5;
+}
+h2{
+  display: flex;
+	flex-grow: 1;
+  margin-left: 50%;
+  margin-bottom: 1;
+	font-size: 1.2em;
+}
+.box_list {
+  height: 11px;
+  width: 300px;
+	display: flex;
+	flex-grow: 1;
+}
+texts{
+
+}
